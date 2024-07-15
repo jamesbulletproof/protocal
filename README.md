@@ -1,9 +1,14 @@
 # Bulletproof Sites
 *Written by James Mackenzie For Bulletproof Webdev Ecosystem*
 
-1. [Required Permissions](#requiredPermissions)
-2. Create Next.js App
-3. Use
+1. [Set up Permissions](#requiredPermissions)
+2. [Create Next.js App](#createApp)
+3. [Use Unframer](#unframer)
+4. [Deploy App](#deploy)
+   1. [Push Changes](#push)
+   2. [Pull Changes](#pull)
+   3. [Create Branch](#branch)
+   3. [Clone App](#clone)
 
 ## <a name="requiredPermissions">Required Permissions</a>
 1. Xcode License
@@ -19,7 +24,7 @@
     1. Create account [here](https://vercel.com/signup) with Github login
 
 
-## Create Next.js App
+## <a name="createApp">Create Next.js App</a>
 For more details, see next.js documentation [here](https://nextjs.org/learn-pages-router/basics/create-nextjs-app/setup).
 ### Initialise App
 
@@ -43,7 +48,7 @@ For more details, see next.js documentation [here](https://nextjs.org/learn-page
    control-C
    ```
 
-## Set up unframer
+## <a name="unframer">Use Unframer</a>
 For more details, see unframer documentation [here](https://github.com/remorses/unframer/tree/main).
 
 
@@ -130,10 +135,11 @@ For more details, see unframer documentation [here](https://github.com/remorses/
    
 
 
-## Deploy App
-**Create and push to Github repository**
-1. In your Github account go to + / New repository
-2. Add the [PROJECT-NAME], and click 'Create repository'
+## <a name="deploy">Deploy App</a>
+**Create and Push to Github Repository**
+1. Login to your Github account
+2. Click on the "+" icon at the top right corner and select "New repository"
+2. Add the [PROJECT-NAME], and click "Create repository".
 3. Copy the following code from Github, *which will be created unique for your new repository*
 
 ```
@@ -145,27 +151,36 @@ git branch -M main
 git remote add origin https://github.com/[ACCOUNT-NAME]/[PROJECT-NAME].git
 git push -u origin main
 ```
-4. Paste the code into the Next.js app CLI
+4. Paste your copied code into the app local directory terminal.
 
 **Publish via Vercel**
-1. Import your github repo from [here](https://vercel.com/import/git) (https://vercel.com/import/git).
+1. Login to Vercel
+2. Import your github repo from [here](https://vercel.com/import/git) (https://vercel.com/import/git).
 2. You should be deployed!
 
-## Push Changes
+### <a name="push">Push Changes</a>
 
-Pushing to main branch
-1. ```git add .``` Collect all the changes from the code
-2. ```git commit -m 'message'``` Commit changes to github with message of what they are
-3. ```git push origin main``` Push changes to the main branch
-
-## Pull Changes
-
-1. ```git status``` to check which branch you are in
-2. ```git checkout main``` to move to main/any relevant branch
-3. ```git pull``` to update your local code
+1. ```git add .``` Collect all the changes from the code.
+2. ```git commit -m 'message'``` Commit changes to GitHub with a clear message describing what they are.
+3. ```git push origin main``` Push changes to the main branch.
 
 
-## Clone App
+
+### <a name="pull">Pull Changes</a>
+
+1. ```git status``` to check which branch you are in.
+2. ```git checkout main``` to move to main/any relevant branch.
+3. ```git pull``` to update your local code.
+
+
+### <a name="branch">Create Branch</a>
+1. ```git branch new-branch-name``` to create 'new-branch-name'.
+2. ```git checkout new-branch-name``` to move git location to new branch.
+3. Push & pull changes as above replacing ```main``` with your ```new-branch-name```.
+4. Review and merge branch in your github account.
+
+
+### <a name="clone">Clone App</a>
 
 1. On GitHub.com, navigate to the main page of the repository.
 
