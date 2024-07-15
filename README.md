@@ -1,5 +1,6 @@
 # Bulletproof Sites
 *Written by James Mackenzie For Bulletproof Webdev Ecosystem*
+include design stack language
 
 1. [Set up Permissions](#requiredPermissions)
 2. [Create Next.js App](#createApp)
