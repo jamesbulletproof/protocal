@@ -1,6 +1,5 @@
-# Bulletproof Sites
-*Written by James Mackenzie For Bulletproof Webdev Ecosystem*
-include design stack language and look into next.js more, what are the main benefits
+# Bulletproof Design Stack Protocol
+*Written by James Mackenzie For Bulletproof Design Stack Capabilities*
 
 1. [Set up Permissions](#requiredPermissions)
 2. [Create Next.js App](#createApp)
