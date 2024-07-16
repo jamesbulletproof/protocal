@@ -6,8 +6,9 @@
 3. [Use Unframer](#unframer)
 4. [Deploy App](#deploy)
    1. [Push Changes](#push)
-   2. [Pull Changes](#pull)
-   3. [Create Branch](#branch)
+   2. [Publish via Vercel](#publish)
+   3. [Pull Changes](#pull)
+   4. [Create Branch](#branch)
    3. [Clone App](#clone)
 
 ## <a name="requiredPermissions">Required Permissions</a>
@@ -153,18 +154,16 @@ git push -u origin main
 ```
 4. Paste your copied code into the app local directory terminal.
 
-**Publish via Vercel**
-1. Login to Vercel
-2. Import your github repo from [here](https://vercel.com/import/git) (https://vercel.com/import/git).
-2. You should be deployed!
-
 ### <a name="push">Push Changes</a>
 
 1. ```git add .``` Collect all the changes from the code.
 2. ```git commit -m 'message'``` Commit changes to GitHub with a clear message describing what they are.
 3. ```git push origin main``` Push changes to the main branch.
 
-
+## <a name="publish">Publish via Vercel</a>
+1. Login to Vercel
+2. Import your github repo from [here](https://vercel.com/import/git) (https://vercel.com/import/git).
+2. You should be deployed!
 
 ### <a name="pull">Pull Changes</a>
 
