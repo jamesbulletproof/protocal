@@ -134,11 +134,6 @@ For more details, see unframer documentation [here](https://github.com/remorses/
    npx unframer
    ```
 
-**Update fonts if not working**
-1. Go to ```styles.css```
-2. Find 
-   
-
 
 ## <a name="deploy">Deploy App</a>
 **Create and Push to Github Repository**
