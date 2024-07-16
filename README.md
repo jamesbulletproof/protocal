@@ -140,7 +140,7 @@ For more details, see unframer documentation [here](https://github.com/remorses/
 1. Login to your Github account
 2. Click on the "+" icon at the top right corner and select "New repository"
 2. Add the [PROJECT-NAME], and click "Create repository".
-3. Copy the following code from Github, *which will be created unique for your new repository*
+3. Github will return similar code to this which will be created unique for your new repository, copy it
 
 ```
 echo "# [PROJECT-NAME]" >> README.md
