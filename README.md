@@ -152,7 +152,7 @@ git branch -M main
 git remote add origin https://github.com/[ACCOUNT-NAME]/[PROJECT-NAME].git
 git push -u origin main
 ```
-4. Paste your copied code into the app local directory terminal.
+4. Paste your copied code **into the project local directory terminal**, not ```app/src```
 
 ### <a name="push">Push Changes</a>
 
