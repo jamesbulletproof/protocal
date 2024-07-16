@@ -87,7 +87,7 @@ For more details, see unframer documentation [here](https://github.com/remorses/
     ```
     npx unframer
     ```
-7. Import the componenent inside your ```jsx``` files, for example
+7. Import the componenent and stylesheet inside your ```jsx``` files, for example
     ```js
     import './framer/styles.css'. // load base Framer styles
     import Menu from './framer/menus'
@@ -133,6 +133,10 @@ For more details, see unframer documentation [here](https://github.com/remorses/
    ```
    npx unframer
    ```
+
+**Update fonts if not working**
+1. Go to ```styles.css```
+2. Find 
    
 
 
