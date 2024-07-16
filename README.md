@@ -70,6 +70,7 @@ For more details, see unframer documentation [here](https://github.com/remorses/
     "components": {
         "headings": "https://framer.com/m/Headings-74WU.js",
         "navbar": "https://framer.com/m/Navbar-yGyf.js"
+     }
     }
     ```
 
