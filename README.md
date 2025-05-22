@@ -42,6 +42,7 @@ For more details, see next.js documentation [here](https://nextjs.org/learn-page
     cd [PROJECT-NAME]
     npm run dev
     ```
+   If you are using a React app, use ```npm start``` to run localhost server.
     
 3. **Close local server** and return to local directory terminal
 
